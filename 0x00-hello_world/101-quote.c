@@ -5,6 +5,6 @@
  */
 int main(void);
 {
-dprintf(STDERR_FILENO, "and that piece of arti useful - Dora Korpar, 2015-10-19 \n")
-return (1)
+write(STDERR_FILENO, "and that piece of arti useful - Dora Korpar, 2015-10-19 \n");
+return (1);
 }
