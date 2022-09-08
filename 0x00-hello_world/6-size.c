@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,12 +11,11 @@ int main(void)
 	long int c;
 	long long int d;
 	float f;
-// sizeof evaluates the size of a variable
-printf("size of a char: %zu bytes\n", sizeof(a));
-printf("size of an int: %zu bytes\n", sizeof(b));
-printf("size of a long int: %zu bytes\n", sizeof(c));
-printf("size of a long long int: %zu bytes\n", sizeof(d));
-printf("size of a float: %zu bytes\n", sizeof(f));
+printf("size of a char: %zu byte(s)\n", sizeof(a));
+printf("size of an int: %zu byte(s)\n", sizeof(b));
+printf("size of a long int: %zu byte(s)\n", sizeof(c));
+printf("size of a long long int: %zu byte(s)\n", sizeof(d));
+printf("size of a float: %zu byte(s)\n", sizeof(f));
 
-return(0);
+return (0);
 }
