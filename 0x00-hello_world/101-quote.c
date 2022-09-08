@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<stdlib.h>
+#include<unisd.h>
 
 /**
- * main - Entry point
+ * main - Prints out the last part of a quote in the standard error .
  * Return: Always 1 (Success)
  */
 int main(void)
 {
-fwrite(STDOUT_FILENO, "and that piece of arti useful - Dora Korpar, 2015-10-19 \n");
+write(2, "and that piece of arti useful - Dora Korpar, 2015-10-19 \n");
 return (1);
 }
