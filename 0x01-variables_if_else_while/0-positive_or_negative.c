@@ -3,10 +3,12 @@
 #include<stdlib.h>
 
 /*
- * main - Prints whether the number stored in the variable n is positive or negative, followed by a new line
+ * main - Prints whether the number stored in the variable n is positive or negative,
+ * followed by a new line
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 int n;
@@ -18,7 +20,7 @@ if (n > 0)
 {
 printf("%d is positive\n", n);
 }
-else if (0 == 0)
+else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
