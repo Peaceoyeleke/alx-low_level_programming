@@ -1,7 +1,7 @@
 #include<unistd.h>
 
 /**
- * main - Prints output to standard error
+ * main - Prints the standard error sandwitched around the standard output
  *
  * Return: returns 1
  **/
