@@ -2,14 +2,15 @@
 #include<time.h>
 #include<stdlib.h>
 
-/*
- * main - Prints whether the number stored in the variable n is positive or negative,
- * followed by a new line
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
+/* Prints whether n is positive or negative
+ */	
 {
 int n;
 
