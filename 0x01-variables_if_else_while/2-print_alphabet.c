@@ -9,8 +9,9 @@
  */
 
 /*
- * prints alphabets in lowercase
+ * A program that prints alphabets in lowercase
  */
+
 int main(void)
 {
 int x;
@@ -18,7 +19,7 @@ int x;
 for (x = 'a'; x <= 'z'; x++)
 {
 putchar(x);
-
+putchar('\n');
 }
 return (0);
 }
