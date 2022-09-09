@@ -14,7 +14,7 @@ int main(void)
  */
 {
 int x;
-for (x = 'z'; x--)
+for (x = 'z', x--)
 {
 putchar(x);
 }
