@@ -9,8 +9,9 @@
  */
 
 int main(void)
-/* Prints whether n is positive or negative
- */	
+/*
+ * Prints whether n is positive or negative
+ */
 {
 int n;
 
@@ -25,7 +26,7 @@ else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
-else if (n < 0) 
+else if (n < 0)
 {
 printf("%d is negative\n", n);
 }
