@@ -8,11 +8,11 @@
  * Return: Always 0 (Success)
  */
 
+int main(void)
 /*
- * A program that prints alphabets in lowercase
+ * Prints alphabets in lower case
  */
 
-int main(void)
 {
 int x;
 
