@@ -1,4 +1,5 @@
 #include<unistd.h>
+#include<stdio.h>
 
 /**
  * main - Prints the standard error sandwitched around the standard output
