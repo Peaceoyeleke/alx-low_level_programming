@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
+#include<stdlib.h>
 
 /**
  * main - Prints the standard error sandwitched around the standard output
@@ -8,11 +9,9 @@
  **/
 int main(void)
 {
-int (1);
 
-1 = sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
 
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19 \n", 1);
+write(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19 \n", 59);
 
 return (1);
 }
