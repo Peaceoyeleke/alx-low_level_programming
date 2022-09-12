@@ -1,17 +1,15 @@
-#include<stdio.h>
-#include<unistd.h>
-#include<stdlib.h>
+#include <unistd.h>
 
 /**
- * main - Prints the standard error sandwitched around the standard output
+ * main - Prints "and that piece of art is useful\" - Dora Korpar, 2015-10-19",
+ * followed by a new line, to standard error.
  *
- * Return: returns 1
- **/
+ * Return: Always 1.
+ */
+
 int main(void)
 {
-char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19 \n";
-
-write(2, ch, '\n', 59);
-
-return (1);
+write(2,
+"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 }
+return (1);
