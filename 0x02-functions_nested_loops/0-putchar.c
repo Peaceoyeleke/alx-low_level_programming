@@ -16,7 +16,7 @@ int main(void)
  */
 
 {
-int _putchar(ch);
+int _putchar;
 {
 _putchar('_');
 _putchar('p');
