@@ -23,6 +23,7 @@ _putchar('r');
 }
 
 {
-putchar('\n')}
+putchar('\n')
+}
 return (0);
 }
