@@ -3,9 +3,9 @@
 /**
  * print_sign: checks the sign of n
  *
- * @n: number to be checked
+ * @n: number whose sign would be printed
  *
- * Return: 0 or 1
+ * Return: 1 if positive, -1 if negative, otherwisw 0
  */
 
 int print_sign(int n)
