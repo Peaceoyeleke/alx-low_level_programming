@@ -7,6 +7,8 @@
  *
  * @b: integer to be added
  *
+ * add: sum of two integers
+ *
  * Return: return the result
  */
 
