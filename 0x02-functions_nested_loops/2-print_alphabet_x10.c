@@ -15,10 +15,10 @@ while (count++ <= 9)
 {
 for (x = 'a'; x <= 'z'; x++)
 {
-putchar(x);
+_putchar(x);
 }
 {
-putchar('\n');
+_putchar('\n');
 }
 }
 }
