@@ -1,5 +1,6 @@
 #include "main.h"
 #include<stdio.h>
+
 /**
  * Main - Prints putchar
  *
@@ -9,12 +10,13 @@
  */
 
 int main(void)
+
 /*
  * A program that prints using putchar
  */
 
 {
-
+int _putchar(ch);
 {
 _putchar('_');
 _putchar('p');
