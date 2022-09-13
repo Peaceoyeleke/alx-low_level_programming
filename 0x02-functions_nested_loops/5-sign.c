@@ -4,6 +4,7 @@
  * print_sign: checks the sign of n
  *
  * @n - number to be checked
+ *
  * Return: 0 or 1
  */
 
@@ -22,7 +23,7 @@ _putchar('0');
 return (0);
 }
 
-else if (n < 0)
+else
 {
 _putchar('-');
 
