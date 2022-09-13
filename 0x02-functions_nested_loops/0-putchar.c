@@ -11,7 +11,7 @@
 
 int main(void)
 
-/*
+/**
  * A program that prints using putchar
  */
 
