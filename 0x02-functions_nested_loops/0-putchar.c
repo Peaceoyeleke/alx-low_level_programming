@@ -3,13 +3,12 @@
 /**
  * Main - Entry point
  *
+ * Description: prints _putchar
+ *
  * Return: Always 0 (Success)
  */
 
 int main(void)
-/**
- * A program that prints _putchar followed by a new line
- */
 {
 
 {
