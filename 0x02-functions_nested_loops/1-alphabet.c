@@ -9,8 +9,8 @@
  */
 
 void print_alphabet(void)
-/**
- * A function that pints the alphabet in lower case
+/*
+ * print_alphabet -  A function that pints the alphabet in lower case
  */
 
 {
