@@ -19,6 +19,7 @@ for (x = 0; x <= n; x++)
 _putchar('0');
 
 for (y = 1; y <= n; y++)
+{
 _putchar(',');
 _putchar(' ');
 
@@ -42,4 +43,4 @@ _putchar((z % 10) + '0');
 _putchar('\n');
 }
 }
-
+}
