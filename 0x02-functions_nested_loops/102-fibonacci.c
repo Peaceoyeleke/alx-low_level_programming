@@ -14,7 +14,7 @@ int nextterm = t1 + t2;
 
 for (i = 0; i <= 50; ++i)
 {
-printf("%d, \n", nextterm)
+printf("%d, \n", nextterm);
 t1 = t2;
 t2 = nextterm;
 nextterm = t1 + t2;
