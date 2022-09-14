@@ -4,7 +4,7 @@
 
 /**
  * print_to_98 - prints all natural numbers
- * 
+ *
  * @n: first natural number
  *
  * Return: Nothing
@@ -12,17 +12,20 @@
 
 void print_to_98(int n)
 {
-
+if (n <= 98)
+{
 while (n < 98)
-n++;
 {
-printf("%d, ", n);
+printf("%d, ", n--);
+printf("%d\n", n);
 }
+}
+else
+{
 while (n > 98)
-n--;
 {
-printf("%d, ", n);
+printf("%d, ", n++);
+printf("%d\n", n);
 }
-printf("98");
-putchar('\n');
+}
 }
