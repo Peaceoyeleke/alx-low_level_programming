@@ -9,14 +9,13 @@
 int main(void)
 {
 int i;
-int t1 = 0, t2 = 1;
-int nextterm;
+unsigned long t1 = 0, t2 = 1, nextterm;
 
 
 for (i = 0; i < 50; i++)
 {
 nextterm = t1 + t2;
-printf("%d", nextterm);
+printf("%ld", nextterm);
 t1 = t2;
 t2 = nextterm;
 
