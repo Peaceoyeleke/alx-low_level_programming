@@ -12,7 +12,7 @@ int i;
 int t1 = 0, t2 = 1;
 int nextterm = t1 + t2;
 
-for (i = 0; i <= 50; ++i)
+for (i = 0; i < 50; i++)
 {
 printf("%d", nextterm);
 t1 = t2;
