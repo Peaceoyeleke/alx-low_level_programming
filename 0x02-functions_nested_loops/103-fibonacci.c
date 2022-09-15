@@ -20,4 +20,5 @@ if ((t1 % 2) == 0)
 sum = sum + t1;
 }
 printf("%ld\n", sum);
+return (0);
 }
