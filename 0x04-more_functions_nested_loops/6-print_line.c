@@ -10,15 +10,18 @@
 
 void print_line(int n)
 {
-for (a = 1; a <= n a++)
+int a;
+
+if (n > 0)
+{
+for (a = 0; a < n; a++)
 {
 _putchar('-');
-
 }
-if (n <= 0)
+_putchar('\n');
+}
+else
 {
 _putchar('\n');
 }
-
-_putchar('\n');
 }
