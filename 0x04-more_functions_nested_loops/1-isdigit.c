@@ -5,7 +5,7 @@
  *
  * @c: digit to be checked
  *
- * Return: 0 or 11
+ * Return: returns 1 or 0
  */
 
 int _isdigit(int c)
