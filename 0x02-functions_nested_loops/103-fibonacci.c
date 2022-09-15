@@ -4,7 +4,7 @@
 /**
  * main -  a program that finds and prints the sum of the even-valued terms
  *
- * Retun: Always 0
+ * Return: Always 0
  */
 
 int main(void)
