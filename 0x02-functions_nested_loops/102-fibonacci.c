@@ -14,14 +14,13 @@ int nextterm = t1 + t2;
 
 for (i = 0; i <= 50; ++i)
 {
-printf("%ld", nextterm);
-
+printf("%d", nextterm);
 t1 = t2;
 t2 = nextterm;
 nextterm = t1 + t2;
 if (i == 49)
 printf("\n");
-else 
+else
 printf(", ");
 }
 return (0);
