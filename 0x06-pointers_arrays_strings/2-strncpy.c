@@ -4,7 +4,7 @@
  * *_strncpy - a function that copies a string
  * @dest: string
  * @src: string
- * n: number of bytes
+ * @n: number of bytes
  * Return: Always 0
  */
 
@@ -14,12 +14,12 @@ char *_strncpy(char *dest, char *src, int n)
 
 	i = 0;
 
-	while (src[i] != '\0' && i > n)
+	while (src[i] != '\0' && i < n)
 	{
 		dest[i] = src[i];
 		i++;
 	}
-	while (i < 0)
+	while (i < n)
 	{
 		dest[i] = '\0';
 		i++;
