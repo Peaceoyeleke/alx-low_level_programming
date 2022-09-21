@@ -4,6 +4,8 @@
  * *_strncat - concatenates two strings using at most n bytes from string src
  * @src: string
  * @dest: string
+ * @n: number of bytes
+ *
  * Return: pointer to dest
  */
 
