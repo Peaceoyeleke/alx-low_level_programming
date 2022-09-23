@@ -11,9 +11,6 @@
 
 char *infinite_add(char *n1, chr *n2, char *, int size_r)
 {
-	/*
-	 * local varibles declaration
-	 */
 	int i = 0, j = 0, k, l = 0, f, s, d = 0;
 
 	while (n1[i] != '\0')
