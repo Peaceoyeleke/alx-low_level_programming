@@ -7,7 +7,7 @@
  * @size: size of bytes
  */
 
-void print_bufer(char *b, int size)
+void print_buffer(char *b, int size)
 {
 	int j, k, l;
 
@@ -32,7 +32,7 @@ void print_bufer(char *b, int size)
 			{
 				if (l >= size)
 					break;
-				if(*(b + 1) < 32 || *(b + 1) > 126)
+				if (*(b + 1) < 32 || *(b + 1) > 126)
 					printf("%c", '.');
 				else
 					printf("%c", *(b + 1));
