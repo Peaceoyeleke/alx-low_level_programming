@@ -8,7 +8,7 @@
  * Return: number of bytes in s which contains only o bytes from accept
  */
 
-unsigned int (char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	for (i = 0; s[i] != '\0'; i++)
 		if (s[i] != 32)
