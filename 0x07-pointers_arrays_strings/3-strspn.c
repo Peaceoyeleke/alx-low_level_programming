@@ -4,7 +4,6 @@
  * _strspn - gets the length off a prefix substring
  * @s: string
  * @accept: string
- * @c: character
  * Return: number of bytes in s which contains only o bytes from accept
  */
 
