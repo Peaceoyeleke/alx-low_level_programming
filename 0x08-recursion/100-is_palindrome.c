@@ -7,7 +7,7 @@
  * Return: 1 on success
  */
 
-int _strlen_recursion(char *s, int l)
+int palind2(char *s, int l)
 {
 	if (*s == 0)
 		return (l - 1);
