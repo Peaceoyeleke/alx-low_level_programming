@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - adds positive numbers
+ * @argc: number of arguments
+ * @argv: array of argments
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int a, b, add = 0;
+
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j] != '\0'; j++)
+		{
+			if (!isdigit (argv[i][j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		add += (atoi[i]);
+	}
+	printf("%d\n", add);
+	return (0);
+}
