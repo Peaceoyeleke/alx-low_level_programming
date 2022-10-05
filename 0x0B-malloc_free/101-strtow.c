@@ -33,7 +33,7 @@ char **strtow(char *str)
 			len = 0;
 			j = i;
 			while ((str[j] != ' ' || str[j] != '\t') && str[j] != '\0')
-				j++; len++;
+				j++, len++;
 			array[k] = malloc((len + 1) * sizeof(char));
 			if (array[k] == NULL)
 			{
