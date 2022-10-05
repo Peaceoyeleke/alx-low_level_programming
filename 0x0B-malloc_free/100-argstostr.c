@@ -2,8 +2,8 @@
 
 /**
  * *argstostr - a function that concatenates all the arguments of your program
- * ac: number of arguments
- * av: arra of strings
+ * @ac: number of arguments
+ * @av: arra of strings
  * Return: Returns a pointer to a new string, or NULL if it fails
  */
 
