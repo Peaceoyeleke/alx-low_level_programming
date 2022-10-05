@@ -39,7 +39,7 @@ int **alloc_grid(int width, int height)
 				i--;
 			}
 			free(array);
-			retrn (NULL);
+			return (NULL);
 		}
 	}
 
