@@ -27,11 +27,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (array != NULL)
 	{
 		for (i = 0; i < min(old_size, new_size); i++)
-			*((char *)array + 1 = *((char *) ptr + i);
-					free(ptr);
-					return (array);
-					}
-					else
-					return (NULL);
-					}
-					}
+			*((char *)array + i) = *((char *) ptr + i);
+		free(ptr);
+		return (array);
+	}
+	else
+		return (NULL);
+	}
+}
