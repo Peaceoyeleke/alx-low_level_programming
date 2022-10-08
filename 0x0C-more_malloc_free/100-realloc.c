@@ -13,7 +13,12 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	void *array;
 	unsigned int i;
 
-	if (new_size == old_size)
+	if (ptr == NULL)
+	{
+		array = malloc(new_size);
+		return (array);
+	}
+	else if (new_size == old_size)
 		return (ptr);
 
 	else if (new_size == 0 && ptr != NULL)
