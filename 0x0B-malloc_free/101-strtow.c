@@ -21,7 +21,6 @@ char **strtow(char *str)
 					if ((str[i] != ' ') && (str[i] != '\0'))
 							size++;
 else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
-					{
 	split[j] = (char *) malloc(sizeof(char) * size + 1);
 	if (split[j] != NULL)
 	{
@@ -38,9 +37,7 @@ else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 	{
 		while (j-- >= 0)
 free(split[j]);
-
 		free(split);
-
 		return (NULL);
 	}
 					}
@@ -90,12 +87,12 @@ return (words);
 
 int len(char *str)
 {
-	int len = 0;
+	int l = 0;
 
 	if (str != NULL)
 	{
-		while (str[len])
-			len++;
+		while (str[l])
+			l++;
 	}
-	return (len);
+	return (l);
 }
