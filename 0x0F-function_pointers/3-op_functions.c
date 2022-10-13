@@ -13,33 +13,40 @@ int op_add(int a, int b)
 }
 
 /**
- *
  * op_sub - Returns the substraction of two numbers
- *
  * @a:The first number
- *
  * @b:The second number
  * Return: subtraction of a and b
  */
 
-int op_mul(int a, int b)
+int op_sub(int a, int b)
 
+{
+	return (a - b);
+}
+
+/**
+ * op_mul - Returns the multiplication of two numbers
+ * @a: first num
+ * @b: second num
+ * Return: The multiplication of a and b
+ */
+
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
 /**
- * op_div - Returns the division of two numbers
- * @a: first num
- * @b: second num
- * Return: The quotient of a and b
+ * op_div - divides two numbers
+ * @a: num
+ * @b: num
+ * Return: a/b
  */
-
 int op_div(int a, int b)
 {
 	return (a / b);
 }
-
 /**
  * op_mod - Returns the remainder of the division of two numbers
  * @a: The first number.
