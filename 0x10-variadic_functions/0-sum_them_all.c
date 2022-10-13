@@ -4,7 +4,8 @@
  * sum_them_all - function that returns the sum of all its parameters
  * @n: constant integer
  * @...: variable number of arguments
- * Return: sum
+ * Return: sum of its parameters
+ *
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -13,16 +14,15 @@ int sum_them_all(const unsigned int n, ...)
 	int sum = 0;
 	unsigned int i;
 
-	va_start(num, n);
 	if (n == 0)
 	{
 		return (0);
 	}
-	else
-	{
+
+	 va_start(num, n);
+	 
 		for (i = 0; i < n; i++)
 			sum += va_arg(num, int);
-	}
 
 	va_end(num);
 	return (sum);
