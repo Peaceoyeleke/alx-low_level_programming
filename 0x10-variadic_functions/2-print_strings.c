@@ -2,7 +2,7 @@
 
 /**
  * print_strings - print strings
- * @seperator : streing
+ * @separator : string
  * @n: number iof strings
  */
 
@@ -23,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		else
 			printf("%s", str);
 
-		if (i != (n - 1) && separator != NULL)
+		if (separator && i != n - 1)
 				printf("%s", separator);
 	}
 
