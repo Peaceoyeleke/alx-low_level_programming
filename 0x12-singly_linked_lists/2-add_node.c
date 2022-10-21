@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * *add_node - adds a node to the beginning of the list
+ * add_node - adds a node to the beginning of the list
  * @str: string
  *
  * @head: first list
@@ -23,7 +23,7 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		new->len = n;
 		new->next = *head;
-		head = new;
+		*head = new;
 	}
 	return (*head);
 }
